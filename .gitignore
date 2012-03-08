@@ -1,0 +1,13 @@
+.classpath
+.project
+*.ids
+*.iml
+*.ipr
+*.iws
+.idea
+target/
+build/
+nbproject/
+target-eclipse/
+projectFilesBackup*/
+.settings/
