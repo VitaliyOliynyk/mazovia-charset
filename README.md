@@ -7,7 +7,6 @@ Usages:
 ======
 
 # Get mazovia bytes from String:
-=================
 
 ```
 byte[] mazoviaBytes = "Gżegżółka".getBytes(Charset.forName("mazovia"));
