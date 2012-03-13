@@ -12,7 +12,7 @@ import java.nio.charset.CoderResult;
   */
 public class MazoviaCharset extends Charset {
 
-     private static char[][] charsUnicodeSort = new char[][] {
+     private static char[][] CHARS_UNICODE_SORT = new char[][] {
            {'\u0104', 143}//Ą
          , {'\u0105', 134}//ą
          , {'\u0106', 149}//Ć
@@ -74,9 +74,9 @@ public class MazoviaCharset extends Charset {
             while (in.hasRemaining()) {
                  char inputChar = in.get();
 
-                 for (int i = 0; i < charsUnicodeSort.length; i++) {
-                     if (inputChar == charsUnicodeSort[i][0]) {
-                         inputChar = charsUnicodeSort[i][1];
+                 for (int i = 0; i < CHARS_UNICODE_SORT.length; i++) {
+                     if (inputChar == CHARS_UNICODE_SORT[i][0]) {
+                         inputChar = CHARS_UNICODE_SORT[i][1];
                      }
                  }
 
@@ -98,9 +98,9 @@ public class MazoviaCharset extends Charset {
              while (in.hasRemaining()) {
                  char inputChar = (char)(in.get() & 0x00FF);
 
-                 for (int i = 0; i < charsUnicodeSort.length; i++) {
-                     if (inputChar == charsUnicodeSort[i][1]) {
-                         inputChar = charsUnicodeSort[i][0];
+                 for (int i = 0; i < CHARS_UNICODE_SORT.length; i++) {
+                     if (inputChar == CHARS_UNICODE_SORT[i][1]) {
+                         inputChar = CHARS_UNICODE_SORT[i][0];
                      }
                  }
                  out.put(inputChar);
