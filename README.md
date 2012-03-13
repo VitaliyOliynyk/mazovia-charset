@@ -1,3 +1,8 @@
+Mazovia charset
+===============
+Java implementation of Mazovia encoding.
+Mazovia encoding is used under MS-DOS to represent Polish texts. Basically it is code page 437 with some positions filled with Polish letters.
+
 Usages:
 ======
 
