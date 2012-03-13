@@ -12,7 +12,7 @@ import java.nio.charset.CoderResult;
   */
 public class MazoviaCharset extends Charset {
 
-     private static char[][] CHARS_UNICODE_SORT = new char[][] {
+     public final static char[][] CHARS_UNICODE_SORT = new char[][] {
            {'\u0104', 143}//Ą
          , {'\u0105', 134}//ą
          , {'\u0106', 149}//Ć
