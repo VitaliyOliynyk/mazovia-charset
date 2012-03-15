@@ -14,13 +14,15 @@
     <name>mazovia-charset</name>
     <url>https://github.com/VitaliyOliynyk/mazovia-charset</url>
     <description>
-        Java implementation of Mazovia encoding. Mazovia encoding is used under MS-DOS to represent Polish texts. Basically it is code page 437 with some positions filled with Polish letters.
+        Java implementation of Mazovia encoding. Mazovia encoding is used under MS-DOS to represent Polish texts.
+        Basically it is code page 437 with some positions filled with Polish letters.
     </description>
     <licenses>
         <license>
-            <name>GNU Lesser General Public License</name>
-            <url>http://www.gnu.org/licenses/lgpl.html</url>
+            <name>Apache 2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
             <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
         </license>
     </licenses>
     <scm>
@@ -34,6 +36,11 @@
             <name>Vitaliy Oliynyk</name>
             <email>xaoc00@gmail.com</email>
             <url>https://vitaliy.eu</url>
+        </developer>
+        <developer>
+            <id>developer</id>
+            <name>Waldemar Klaczynski</name>
+            <email>Waldemar.Klaczynski@gmail.com</email>
         </developer>
     </developers>
 
