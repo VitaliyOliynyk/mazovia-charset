@@ -9,7 +9,7 @@
     <groupId>eu.vitaliy</groupId>
     <artifactId>mazovia-charset</artifactId>
     <packaging>jar</packaging>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <name>mazovia-charset</name>
     <url>https://github.com/VitaliyOliynyk/mazovia-charset</url>
     <description>
